@@ -1,0 +1,54 @@
+## Visual Studio / .NET için .gitignore
+
+# Kullanıcıya özel dosyalar
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.idea/
+
+# Derleme çıktıları
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Test sonuçları
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+project.lock.json
+.nuget/
+
+# Visual Studio önbellek
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# Çalışma sırasında oluşan SQLite veritabanları (05-ef-core)
+*.db
+*.db-shm
+*.db-wal
+
+.DS_Store
